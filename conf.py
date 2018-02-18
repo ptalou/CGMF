@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# CGMF Python Utilities documentation build configuration file, created by
+# CGMF Cookbook documentation build configuration file, created by
 # sphinx-quickstart on Sat Feb 17 15:49:07 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -32,7 +32,8 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.todo',
-    'sphinx.ext.mathjax']
+    'sphinx.ext.mathjax',
+    'nbsphinx']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'CGMF Python Utilities'
+project = 'CGMF Cookbook'
 copyright = '2018, Patrick Talou'
 author = 'Patrick Talou'
 
@@ -116,7 +117,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CGMFPythonUtilitiesdoc'
+htmlhelp_basename = 'CGMFCookBook'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -143,7 +144,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CGMFPythonUtilities.tex', 'CGMF Python Utilities Documentation',
+    (master_doc, 'CGMFCookbook.tex', 'CGMF Cookbook',
      'Patrick Talou', 'manual'),
 ]
 
@@ -153,7 +154,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cgmfpythonutilities', 'CGMF Python Utilities Documentation',
+    (master_doc, 'cgmfcookbook', 'CGMF Cookbook',
      [author], 1)
 ]
 
@@ -164,8 +165,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CGMFPythonUtilities', 'CGMF Python Utilities Documentation',
-     author, 'CGMFPythonUtilities', 'One line description of project.',
+    (master_doc, 'CGMFCookbook', 'CGMF Cookbook',
+     author, 'CGMFCookbook', 'CGMF Python utilities',
      'Miscellaneous'),
 ]
 
