@@ -10,6 +10,7 @@ CGMF Python Cookbook
    :maxdepth: 2
 
   Introduction <intro>
+  Discrete Levels <discreteLevels>
   Reading Experimental Data <readingExperimentalData.ipynb>
   Reading Fission Yields <fissionYields.ipynb>
   Analyzing CGMF output histories <analysis>
