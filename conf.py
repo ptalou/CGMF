@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# CGMF Cookbook documentation build configuration file, created by
+# CGMF User Manual documentation build configuration file, created by
 # sphinx-quickstart on Sat Feb 17 15:49:07 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -32,7 +32,7 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.todo',
-    'sphinx.ext.mathjax']
+    'sphinx.ext.mathjax', 'nbsphinx', 'IPython.sphinxext.ipython_console_highlighting']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'CGMF Cookbook'
+project = 'CGMF User Manual'
 copyright = '2018, Patrick Talou'
 author = 'Patrick Talou'
 
@@ -70,7 +70,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '**.ipynb_checkpoints']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -116,7 +116,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CGMFCookBook'
+htmlhelp_basename = 'CGMFUserManual'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -143,7 +143,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CGMFCookbook.tex', 'CGMF Cookbook',
+    (master_doc, 'CGMFUserManual.tex', 'CGMF User Manual',
      'Patrick Talou', 'manual'),
 ]
 
@@ -153,7 +153,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cgmfcookbook', 'CGMF Cookbook',
+    (master_doc, 'cgmfusermanual', 'CGMF User Manual',
      [author], 1)
 ]
 
@@ -164,8 +164,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CGMFCookbook', 'CGMF Cookbook',
-     author, 'CGMFCookbook', 'CGMF Python utilities',
+    (master_doc, 'CGMFUserManual', 'CGMF User Manual',
+     author, 'CGMFUserManual', 'CGMF',
      'Miscellaneous'),
 ]
 
