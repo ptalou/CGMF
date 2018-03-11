@@ -11,11 +11,9 @@ Most Recent Publications
 ------------------------
 
 
-- P. Jaffke, P. Möller, P. Talou, and A.J. Sierk, "Hauser-Feshbach fission fragment de-excitation with calculated macroscopic-microscopic mass yields," accepted for publication in Phys. Rev. C (2017). `arXiv:1712.05511 <https://arxiv.org/abs/1712.05511>`_
+- P. Jaffke, P. Möller, P. Talou, and A.J. Sierk, "Hauser-Feshbach fission fragment de-excitation with calculated macroscopic-microscopic mass yields," `arXiv:1712.05511 <https://arxiv.org/abs/1712.05511>`_, *accepted for publication in Phys. Rev. C (2018)*. 
 
-
-- recent one by Matthew Marcath accepted in Phys. Rev. C to place under Correlations in Fission.
-
+- M.J. Marcath, R.C. Haight, M. Devlin, P. Talou, I. Stetcu, R. Vogt, J. Randrup, P.F. Schuster, S.D. Clarke, and S.A. Pozzi, "Measured and simulated 252Cf(sf) prompt neutron-photon competition," *accepted for publication in Phys. Rev. C (2018)*.
 
 
 
