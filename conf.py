@@ -35,8 +35,12 @@ extensions = [
 	'nbsphinx',
 	'sphinx.ext.todo',
 	'sphinx.ext.autodoc',
+<<<<<<< HEAD
 	'sphinx.ext.mathjax',
 	'IPython.sphinxext.ipython_console_highlighting']
+=======
+	'sphinx.ext.mathjax']
+>>>>>>> cd04c1470958ca1c2f68b59daba529df4fefddc0
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
