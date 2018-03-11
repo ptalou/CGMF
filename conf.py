@@ -32,11 +32,11 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-							'sphinx.ext.todo',
-							'sphinx.ext.autodoc',
-							'sphinx.ext.mathjax',
-							'nbsphinx',
-							'IPython.sphinxext.ipython_console_highlighting']
+	'nbsphinx',
+	'sphinx.ext.todo',
+	'sphinx.ext.autodoc',
+	'sphinx.ext.mathjax',
+	'IPython.sphinxext.ipython_console_highlighting']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
